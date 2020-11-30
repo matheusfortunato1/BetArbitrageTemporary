@@ -1,0 +1,13 @@
+
+2020-11-29 20:21:12;Vasco Da Gama;Ceara SC;2.6;3.0;3.0
+2020-11-29 20:21:12;Grêmio;Goiás;1.34;5.0;9.5
+2020-11-29 20:21:12;Fluminense;Bragantino SP;2.55;3.2;2.9
+2020-11-29 20:22:52;Vasco Da Gama;Ceara SC;2.6;3.0;3.0
+2020-11-29 20:22:52;Grêmio;Goiás;1.34;5.0;9.5
+2020-11-29 20:22:52;Fluminense;Bragantino SP;2.55;3.2;2.9
+2020-11-29 22:46:38;Vasco Da Gama;Ceara SC;2.6;3.0;3.0
+2020-11-29 22:46:38;Grêmio;Goiás;1.34;5.0;9.5
+2020-11-29 22:46:38;Fluminense;Bragantino SP;2.55;3.2;2.9
+2020-11-29 22:46:44;Vasco Da Gama;Ceara SC;2.6;3.0;3.0
+2020-11-29 22:46:44;Grêmio;Goiás;1.34;5.0;9.5
+2020-11-29 22:46:44;Fluminense;Bragantino SP;2.55;3.2;2.9
