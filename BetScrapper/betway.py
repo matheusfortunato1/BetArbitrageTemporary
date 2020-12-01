@@ -37,7 +37,11 @@ class Betway():
         options.add_argument('--incognito')
         options.add_argument('--headless')
         return webdriver.Chrome(options=options)
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> fedb81ba23950529f96ca22c89fc3646237373ed
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -69,7 +73,7 @@ class Betway():
 
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
-    Betway('https://sports.betway.com/pt/sports/grp/soccer/brazil/brasileiro-serie-b', 
-           'betway{}.txt'.format(TODAY_STR), 
+    Betway('https://sports.betway.com/pt/sports/grp/soccer/european-cups/uefa-champions-league', 
+           'betway{}champions.txt'.format(TODAY_STR), 
             60)
     

@@ -69,5 +69,5 @@ class SportingBet():
 
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
-    url = 'https://sports.sportingbet.com/pt-br/sports/futebol-4/aposta/brasil-33/s%C3%A9rie-b-5934'
-    SportingBet(url, 'sportingbet{}.txt'.format(url), 60)
+    url = 'https://sports.sportingbet.com/pt-br/sports/futebol-4/aposta/europa-7/liga-dos-campe%C3%B5es-0:3'
+    SportingBet(url, 'sportingbet{}champions.txt'.format(url), 60)
