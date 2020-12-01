@@ -1,2 +1,0 @@
-2020-12-01 05:18:18;Chapecoense;Cuiabá;Confiança;Figueirense;CRB;CSA;Nautico PE;Guarani;2,15;2,87;3,75;1,61;3,50;5,75;3,00;2,87;2,50;2,62;3,00;2,70;
-2020-12-01 05:25:06;Chapecoense;Cuiabá;Confiança;Figueirense;CRB;CSA;Nautico PE;Guarani;2,15;2,87;3,75;1,61;3,50;5,75;3,00;2,87;2,50;2,62;3,00;2,70;

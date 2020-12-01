@@ -36,7 +36,7 @@ class SportingBet():
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--incognito')
         options.add_argument('--headless')
-        return webdriver.Chrome("/Users/Matheus/Documents/chromedriver", options=options)
+        return webdriver.Chrome(options=options)
             
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
@@ -70,4 +70,4 @@ class SportingBet():
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
     url = 'https://sports.sportingbet.com/pt-br/sports/futebol-4/aposta/europa-7/liga-dos-campe%C3%B5es-0:3'
-    SportingBet(url, 'sportingbet{}champions.txt'.format(url), 60)
+    SportingBet(url, 'sportingbet{}champions.txt'.format(TODAY_STR), 60)

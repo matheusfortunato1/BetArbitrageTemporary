@@ -37,11 +37,8 @@ class Betway():
         options.add_argument('--incognito')
         options.add_argument('--headless')
         return webdriver.Chrome(options=options)
-<<<<<<< HEAD
+              
 
-=======
-            
->>>>>>> fedb81ba23950529f96ca22c89fc3646237373ed
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
