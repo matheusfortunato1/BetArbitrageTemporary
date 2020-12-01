@@ -4,7 +4,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-class Betway():
+class Betano():
     
     
     def __init__(self, url, filename, sample_time, n_attempts=2):
@@ -28,7 +28,6 @@ class Betway():
                 except:
                     print('Erro!')
                     time.sleep(self.sleep_time)
-            
             time.sleep(0.5*self.sample_time-attempt*self.sleep_time)
             
     def _init_chromium_driver(self):
@@ -36,8 +35,8 @@ class Betway():
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--incognito')
         options.add_argument('--headless')
-        return webdriver.Chrome(options=options)
-
+        return webdriver.Chrome("/Users/Matheus/Documents/chromedriver", options=options)
+            
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -51,25 +50,26 @@ class Betway():
         
     def _write_odds(self):
         with open(self.filename, "a") as f:
-            for pg in self.page.find_all('div', class_='odds')[1:]:
-                f.write(str(pg.getText())+';')
+            for pg in page.find_all('td', class_='table__markets__market'):
+                for odd in pg.find_all('span', class_='selections__selection__odd'):
+                    print(odd.getText()+';')
+                    f.write(odd.getText()+';')
             f.write('\n')
     
     def _write_teams(self):
         with open(self.filename, "a") as f:
             print('Entrou em write teams')
             f.write(self.time+';')
-            for pg in self.page.find_all('span', class_='teamNameEllipsisContainer'):
-                print(str(pg.find('span').getText())+';')
-                f.write(str(pg.find('span').getText())+';')
-            
+            for pg in page.find_all('th', class_='events-list__grid__info'):
+                for team in pg.find_all('span'):
+                    print(team.getText().strip()+';')
+                    f.write(team.getText().strip()+';')
+                    
     def write_games_odds(self):
         self._write_teams()
         self._write_odds()
 
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
-    Betway('https://sports.betway.com/pt/sports/grp/soccer/brazil/brasileiro-serie-b', 
-           'betway{}.txt'.format(TODAY_STR), 
-            60)
-    
+    url = 'https://br.betano.com/sport/futebol/brasil/brasileirao-serie-b/10017/'
+    Betano(url, 'betano{}.txt'.format(url), 60)

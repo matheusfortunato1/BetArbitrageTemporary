@@ -4,7 +4,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-class Betway():
+class SportingBet():
     
     
     def __init__(self, url, filename, sample_time, n_attempts=2):
@@ -36,8 +36,8 @@ class Betway():
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--incognito')
         options.add_argument('--headless')
-        return webdriver.Chrome(options=options)
-
+        return webdriver.Chrome("/Users/Matheus/Documents/chromedriver", options=options)
+            
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -51,7 +51,7 @@ class Betway():
         
     def _write_odds(self):
         with open(self.filename, "a") as f:
-            for pg in self.page.find_all('div', class_='odds')[1:]:
+            for pg in self.page.find_all('div', class_='option option-indicator ng-star-inserted'):
                 f.write(str(pg.getText())+';')
             f.write('\n')
     
@@ -59,9 +59,9 @@ class Betway():
         with open(self.filename, "a") as f:
             print('Entrou em write teams')
             f.write(self.time+';')
-            for pg in self.page.find_all('span', class_='teamNameEllipsisContainer'):
-                print(str(pg.find('span').getText())+';')
-                f.write(str(pg.find('span').getText())+';')
+            for pg in self.page.find_all('div', class_='participant'):
+                print(str(pg.getText().strip())+';')
+                f.write(str(pg.getText().strip())+';')
             
     def write_games_odds(self):
         self._write_teams()
@@ -69,7 +69,5 @@ class Betway():
 
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
-    Betway('https://sports.betway.com/pt/sports/grp/soccer/brazil/brasileiro-serie-b', 
-           'betway{}.txt'.format(TODAY_STR), 
-            60)
-    
+    url = 'https://sports.sportingbet.com/pt-br/sports/futebol-4/aposta/brasil-33/s%C3%A9rie-b-5934'
+    SportingBet(url, 'sportingbet{}.txt'.format(url), 60)

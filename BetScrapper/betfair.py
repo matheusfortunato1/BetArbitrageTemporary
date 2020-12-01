@@ -1,5 +1,5 @@
 import datetime
-
+import http.client
 import time
 
 from selenium import webdriver
@@ -74,5 +74,5 @@ class BetFair():
                     f.write(';'+ x)
 
 if __name__ == '__main__':
-    url = 'https://www.betfair.com/sport/football/brasil-serie-a/13'
-    BetFair(url, 'betfair20201130.txt', 45)                
+    url = 'https://www.betfair.com/sport/football/uefa-liga-dos-campe%C3%B5es/228'
+    BetFair(url, 'betfair20201130.txt', 60)                
