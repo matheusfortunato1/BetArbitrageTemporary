@@ -36,7 +36,7 @@ class Betway():
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--incognito')
         options.add_argument('--headless')
-        return webdriver.Chrome("/Users/Matheus/Documents/chromedriver", options=options)
+        return webdriver.Chrome(options=options)
             
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
@@ -68,5 +68,6 @@ class Betway():
         self._write_odds()
 
 if __name__ == '__main__':
-    Betway('https://sports.betway.com/pt/sports/grp/soccer/brazil/brasileiro-serie-a', 'betway20201130.txt', 60)
+    TODAY_STR = datetime.now().strftime('%Y%m%d')
+    Betway('https://sports.betway.com/pt/sports/grp/soccer/brazil/brasileiro-serie-a', 'betway{}.txt'.format(TODAY_STR), 60)
     

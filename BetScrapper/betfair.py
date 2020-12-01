@@ -1,12 +1,8 @@
 import datetime
-
 import time
-
 from selenium import webdriver
 from bs4 import BeautifulSoup
-
 from datetime import datetime
-
 from mechanize import Browser
 
 class BetFair():
@@ -74,5 +70,6 @@ class BetFair():
                     f.write(';'+ x)
 
 if __name__ == '__main__':
+    TODAY_STR = datetime.now().strftime('%Y%m%d')
     url = 'https://www.betfair.com/sport/football/brasil-serie-a/13'
-    BetFair(url, 'betfair20201130.txt', 45)                
+    BetFair(url, 'betfair{}.txt'.format(TODAY_STR), 45)                
