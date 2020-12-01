@@ -1,0 +1,49 @@
+
+2020-12-01 06:20:24;Lokomotiv;Red Bull Salzburg;5.0;4.4;1.58
+2020-12-01 06:20:24;Shakhtar;Real Madrid;7.0;5.0;1.4
+2020-12-01 06:20:24;Liverpool;Ajax;1.7;4.2;4.5
+2020-12-01 06:20:24;Marseille;Olympiakos;2.3;3.2;3.2
+2020-12-01 06:20:24;Porto;Man City;6.0;4.0;1.6
+2020-12-01 06:20:24;Atletico Madrid;Bayern Munich;1.95;3.8;3.6
+2020-12-01 06:20:24;Mgladbach;Inter;2.9;3.7;2.25
+2020-12-01 06:20:24;Atalanta;Midtjylland;1.18;7.5;14.0
+2020-12-01 06:20:24;FK Krasnodar;Rennes;2.6;3.25;2.6
+2020-12-01 06:20:24;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-01 06:20:24;Dortmund;Lazio;1.6;4.33;5.0
+2020-12-01 06:20:24;Man Utd;Paris St-G;2.7;3.5;2.4
+2020-12-01 06:20:24;Sevilla;Chelsea;2.8;3.25;2.5
+2020-12-01 06:20:24;Juventus;Dynamo Kiev;1.24;5.5;12.0
+2020-12-01 06:20:24;Ferencvaros;Barcelona;7.5;5.0;1.36
+2020-12-01 06:20:24;Club Brugge;Zenit St Petersburg;2.15;3.5;3.25
+2020-12-01 06:21:25;Lokomotiv;Red Bull Salzburg;5.0;4.4;1.58
+2020-12-01 06:21:25;Shakhtar;Real Madrid;7.0;5.0;1.4
+2020-12-01 06:21:25;Liverpool;Ajax;1.7;4.2;4.5
+2020-12-01 06:21:25;Marseille;Olympiakos;2.3;3.2;3.2
+2020-12-01 06:21:25;Porto;Man City;6.0;4.0;1.6
+2020-12-01 06:21:25;Atletico Madrid;Bayern Munich;1.95;3.8;3.6
+2020-12-01 06:21:25;Mgladbach;Inter;2.9;3.7;2.25
+2020-12-01 06:21:25;Atalanta;Midtjylland;1.18;7.5;14.0
+2020-12-01 06:21:25;FK Krasnodar;Rennes;2.6;3.25;2.6
+2020-12-01 06:21:25;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-01 06:21:25;Dortmund;Lazio;1.6;4.33;5.0
+2020-12-01 06:21:25;Man Utd;Paris St-G;2.7;3.5;2.4
+2020-12-01 06:21:25;Sevilla;Chelsea;2.8;3.25;2.5
+2020-12-01 06:21:25;Juventus;Dynamo Kiev;1.24;5.5;12.0
+2020-12-01 06:21:25;Ferencvaros;Barcelona;7.5;5.0;1.36
+2020-12-01 06:21:25;Club Brugge;Zenit St Petersburg;2.15;3.5;3.25
+2020-12-01 11:10:59;Lokomotiv;Red Bull Salzburg;5.0;4.25;1.6
+2020-12-01 11:10:59;Shakhtar;Real Madrid;6.5;5.0;1.44
+2020-12-01 11:10:59;Liverpool;Ajax;1.74;4.0;4.25
+2020-12-01 11:10:59;Marseille;Olympiakos;2.35;3.2;3.2
+2020-12-01 11:10:59;Porto;Man City;6.0;4.2;1.52
+2020-12-01 11:10:59;Atletico Madrid;Bayern Munich;1.9;3.8;3.8
+2020-12-01 11:10:59;Mgladbach;Inter;2.9;3.7;2.25
+2020-12-01 11:10:59;Atalanta;Midtjylland;1.16;8.0;16.0
+2020-12-01 11:10:59;FK Krasnodar;Rennes;2.6;3.25;2.6
+2020-12-01 11:10:59;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-01 11:10:59;Dortmund;Lazio;1.55;4.25;5.0
+2020-12-01 11:10:59;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-01 11:10:59;Sevilla;Chelsea;2.8;3.25;2.5
+2020-12-01 11:10:59;Juventus;Dynamo Kiev;1.24;5.5;12.0
+2020-12-01 11:10:59;Ferencvaros;Barcelona;6.5;4.5;1.46
+2020-12-01 11:10:59;Club Brugge;Zenit St Petersburg;2.1;3.5;3.25

@@ -35,7 +35,7 @@ class Betano():
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--incognito')
         options.add_argument('--headless')
-        return webdriver.Chrome("/Users/Matheus/Documents/chromedriver", options=options)
+        return webdriver.Chrome(options=options)
             
     def _load_page(self):
         print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
@@ -50,7 +50,7 @@ class Betano():
         
     def _write_odds(self):
         with open(self.filename, "a") as f:
-            for pg in page.find_all('td', class_='table__markets__market'):
+            for pg in self.page.find_all('td', class_='table__markets__market'):
                 for odd in pg.find_all('span', class_='selections__selection__odd'):
                     print(odd.getText()+';')
                     f.write(odd.getText()+';')
@@ -60,7 +60,7 @@ class Betano():
         with open(self.filename, "a") as f:
             print('Entrou em write teams')
             f.write(self.time+';')
-            for pg in page.find_all('th', class_='events-list__grid__info'):
+            for pg in self.page.find_all('th', class_='events-list__grid__info'):
                 for team in pg.find_all('span'):
                     print(team.getText().strip()+';')
                     f.write(team.getText().strip()+';')
@@ -71,5 +71,5 @@ class Betano():
 
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
-    url = 'https://br.betano.com/sport/futebol/brasil/brasileirao-serie-b/10017/'
-    Betano(url, 'betano{}.txt'.format(url), 60)
+    url = 'https://br.betano.com/sport/futebol/liga-dos-campeoes/liga-dos-campeoes-jogos/182748/'
+    Betano(url, 'betano{}.txt'.format(TODAY_STR), 60)

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "betfair.py", line 75, in <module>
+    BetFair(url, 'betfair{}champions.txt'.format(TODAY_STR), 60)                
+  File "betfair.py", line 30, in __init__
+    time.sleep(self.sample_time-attempt*sleep_time)
+KeyboardInterrupt
