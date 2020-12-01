@@ -19,3 +19,4 @@
 2020-11-30 01:24:15;Grêmio;Goiás;Vasco da Gama;Ceará;Fluminense;Bragantino;1.34;4.75;9.50;2.55;3.00;2.95;2.55;3.20;2.85;
 2020-11-30 01:25:17;Grêmio;Goiás;Vasco da Gama;Ceará;Fluminense;Bragantino;1.34;4.75;9.50;2.55;3.00;2.95;2.55;3.20;2.85;
 2020-11-30 01:26:18;Grêmio;Goiás;Vasco da Gama;Ceará;Fluminense;Bragantino;1.34;4.75;9.50;2.55;3.00;2.95;2.55;3.20;2.85;
+2020-11-30 21:56:46;Estudiantes;San Lorenzo;Tigres;Pachuca;Union Magdalena;Atletico Huila;Lokomotiv Moscow;Red Bull Salzburg;Shakhtar Donetsk;Real Madrid;Atalanta;FC Midtjylland;Atlético de Madrid;Bayern de Munique;Borussia Mönchengladbach;Inter de Milão;Liverpool;Ajax;Porto;Manchester City;2.70;2.65;2.75;1.80;1.91;1.19;5.75;10.00;1.75;1.95;2.30;2.65;3.40;1.60;2.20;5.75;4.33;1.55;1.57;2.30;7.25;5.75;1.36;1.85;1.87;1.20;7.25;13.00;1.87;1.85;1.87;4.00;3.80;1.62;2.20;2.90;3.60;2.35;1.57;2.30;1.72;4.25;4.25;2.00;1.72;5.25;4.00;1.65;1.60;2.25;
