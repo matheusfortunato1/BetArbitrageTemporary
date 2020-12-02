@@ -1,0 +1,113 @@
+
+2020-12-02 01:45:56;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:45:56;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:45:56;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:45:56;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:45:56;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:45:56;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:45:56;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:45:56;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:46:57;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:46:57;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:46:57;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:46:57;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:46:57;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:46:57;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:46:57;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:46:57;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:47:58;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:47:58;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:47:58;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:47:58;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:47:58;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:47:58;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:47:58;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:47:58;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:48:59;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:48:59;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:48:59;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:48:59;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:48:59;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:48:59;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:48:59;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:48:59;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:50:00;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:50:00;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:50:00;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:50:00;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:50:00;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:50:00;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:50:00;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:50:00;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:51:00;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:51:00;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:51:00;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:51:00;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:51:00;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:51:00;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:51:00;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:51:00;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:52:01;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:52:01;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:52:01;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:52:01;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:52:01;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:52:01;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:52:01;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:52:01;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:53:02;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:53:02;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:53:02;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:53:02;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:53:02;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:53:02;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:53:02;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:53:02;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:54:03;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:54:03;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:54:03;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:54:03;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:54:03;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:54:03;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:54:03;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:54:03;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:55:04;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:55:04;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:55:04;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:55:04;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:55:04;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:55:04;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:55:04;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:55:04;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:56:11;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:56:11;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:56:11;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:56:11;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:56:11;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:56:11;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:56:11;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:56:11;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:57:13;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:57:13;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:57:13;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:57:13;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:57:13;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:57:13;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:57:13;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:57:13;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:58:16;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:58:16;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:58:16;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:58:16;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:58:16;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:58:16;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:58:16;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:58:16;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
+2020-12-02 01:59:17;FK Krasnodar;Rennes;2.65;3.2;2.65
+2020-12-02 01:59:17;Basaksehir;RB Leipzig;7.0;5.0;1.4
+2020-12-02 01:59:17;Dortmund;Lazio;1.6;4.25;5.0
+2020-12-02 01:59:17;Man Utd;Paris St-G;2.8;3.5;2.4
+2020-12-02 01:59:17;Sevilla;Chelsea;2.9;3.2;2.5
+2020-12-02 01:59:17;Juventus;Dynamo Kiev;1.24;6.0;12.0
+2020-12-02 01:59:17;Ferencvaros;Barcelona;6.0;4.5;1.52
+2020-12-02 01:59:17;Club Brugge;Zenit St Petersburg;2.0;3.7;3.4
