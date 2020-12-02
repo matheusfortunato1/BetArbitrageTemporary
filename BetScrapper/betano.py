@@ -21,9 +21,7 @@ class Betano():
             for attempt in range(n_attempts):
                 try:
                     self._load_page()
-                    print('Página carregou')
                     self.write_games_odds()
-                    print('Foi escrito')
                     break
                 except:
                     print('Erro!')
@@ -38,11 +36,10 @@ class Betano():
         return webdriver.Chrome(options=options)
             
     def _load_page(self):
-        print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+        print('betano - start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         self.driver.get(self.url)
         time.sleep(self.sleep_time)
-        print('Get url ok ')
         # Fucking sleep cause shit download speed
         page_source = self.driver.page_source
         time.sleep(self.sleep_time)
@@ -52,17 +49,14 @@ class Betano():
         with open(self.filename, "a") as f:
             for pg in self.page.find_all('td', class_='table__markets__market'):
                 for odd in pg.find_all('span', class_='selections__selection__odd'):
-                    print(odd.getText()+';')
                     f.write(odd.getText()+';')
             f.write('\n')
     
     def _write_teams(self):
         with open(self.filename, "a") as f:
-            print('Entrou em write teams')
             f.write(self.time+';')
             for pg in self.page.find_all('th', class_='events-list__grid__info'):
                 for team in pg.find_all('span'):
-                    print(team.getText().strip()+';')
                     f.write(team.getText().strip()+';')
                     
     def write_games_odds(self):

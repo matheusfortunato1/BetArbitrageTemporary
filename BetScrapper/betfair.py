@@ -36,6 +36,7 @@ class BetFair():
         page = BeautifulSoup(page_content,"lxml")
         page = page.find_all('div', class_='content-multipick')
         self.page = page[0].find_all('div', class_='details-market market-3-runners')
+        print('start betfair' + self.time)
         
     def _get_games_odds(self, pg):
         

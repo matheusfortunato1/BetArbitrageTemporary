@@ -21,9 +21,7 @@ class Betway():
             for attempt in range(n_attempts):
                 try:
                     self._load_page()
-                    print('Página carregou')
                     self.write_games_odds()
-                    print('Foi escrito')
                     break
                 except:
                     print('Erro!')
@@ -40,11 +38,10 @@ class Betway():
               
 
     def _load_page(self):
-        print('start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+        print('betway - start...' + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         self.driver.get(self.url)
         time.sleep(self.sleep_time)
-        print('Get url ok ')
         # Fucking sleep cause shit download speed
         page_source = self.driver.page_source
         time.sleep(self.sleep_time)
@@ -58,10 +55,8 @@ class Betway():
     
     def _write_teams(self):
         with open(self.filename, "a") as f:
-            print('Entrou em write teams')
             f.write(self.time+';')
             for pg in self.page.find_all('span', class_='teamNameEllipsisContainer'):
-                print(str(pg.find('span').getText())+';')
                 f.write(str(pg.find('span').getText())+';')
             
     def write_games_odds(self):
