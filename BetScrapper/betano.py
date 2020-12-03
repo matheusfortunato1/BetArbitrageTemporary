@@ -71,5 +71,5 @@ class Betano():
 
 if __name__ == '__main__':
     TODAY_STR = datetime.now().strftime('%Y%m%d')
-    url = 'https://br.betano.com/sport/futebol/brasil/brasileirao-serie-b/10017/'
+    url = 'https://br.betano.com/sport/futebol/liga-dos-campeoes/liga-dos-campeoes-jogos/182748/'
     Betano(url, 'betano{}.txt'.format(url), 60)
