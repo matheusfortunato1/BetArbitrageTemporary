@@ -982,3 +982,11 @@
 2020-12-02 23:56:30;Ajax;Atalanta;Midtjylland;Liverpool;Bayern de Munique;Lokomotiv Moscou;Inter de Milão;Shakhtar Donetsk;Manchester City;Olympique de Marseille;Olympiacos;Porto;Real Madrid;Borussia Monchengladbach;Red Bull Salzburg;Atlético de Madrid;2,25;4,00;2,80;3,25;3,75;2,10;1,25;6,50;10,00;1,30;6,00;8,50;1,37;5,00;8,00;1,77;3,60;4,75;1,80;3,50;4,75;2,90;3,50;2,37;
 2020-12-02 23:58:08;
 2020-12-02 23:59:23;
+2020-12-03 00:00:49;
+2020-12-03 00:02:18;Ajax;Atalanta;Midtjylland;Liverpool;Bayern de Munique;Lokomotiv Moscou;Inter de Milão;Shakhtar Donetsk;Manchester City;Olympique de Marseille;Olympiacos;Porto;Real Madrid;Borussia Monchengladbach;Red Bull Salzburg;Atlético de Madrid;2,25;4,00;2,80;3,25;3,75;2,10;1,25;6,50;10,00;1,30;6,00;8,50;1,37;5,00;8,00;1,77;3,60;4,75;1,80;3,50;4,75;2,90;3,50;2,37;
+2020-12-03 00:04:16;
+2020-12-03 00:05:49;
+2020-12-03 00:07:10;
+2020-12-03 00:08:27;
+2020-12-03 00:10:06;Ajax;Atalanta;Midtjylland;Liverpool;Bayern de Munique;Lokomotiv Moscou;Inter de Milão;Shakhtar Donetsk;Manchester City;Olympique de Marseille;Olympiacos;Porto;Real Madrid;Borussia Monchengladbach;Red Bull Salzburg;Atlético de Madrid;2,25;4,00;2,80;3,25;3,75;2,10;1,25;6,50;10,00;1,30;6,00;8,50;1,37;5,00;8,00;1,77;3,60;4,75;1,80;3,50;4,75;2,90;3,50;2,37;
+2020-12-03 00:11:03;Ajax;Atalanta;Midtjylland;Liverpool;Bayern de Munique;Lokomotiv Moscou;Inter de Milão;Shakhtar Donetsk;Manchester City;Olympique de Marseille;Olympiacos;Porto;Real Madrid;Borussia Monchengladbach;Red Bull Salzburg;Atlético de Madrid;2,25;4,00;2,80;3,25;3,75;2,10;1,25;6,50;10,00;1,30;6,00;8,50;1,37;5,00;8,00;1,77;3,60;4,75;1,80;3,50;4,75;2,90;3,50;2,37;
